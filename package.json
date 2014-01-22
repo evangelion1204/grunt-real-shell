@@ -1,0 +1,43 @@
+{
+  "name": "grunt-real-shell",
+  "description": "Run a shell script synchronously",
+  "version": "0.1.1",
+  "homepage": "https://github.com/evangelion1204/grunt-real-shell",
+  "author": {
+    "name": "Michael Geppert",
+    "email": "evangelion1204@aol.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evangelion1204/grunt-real-shell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evangelion1204/grunt-real-shell/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/evangelion1204/grunt-real-shell/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2",
+    "exec-sync": "~0.1.6"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2",
+    "exec-sync": "~0.1.6"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
