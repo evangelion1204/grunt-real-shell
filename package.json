@@ -34,7 +34,7 @@
     "exec-sync": "~0.1.6"
   },
   "peerDependencies": {
-    "grunt": "~0.4.2",
+    "grunt": ">=0.4.0",
     "exec-sync": "~0.1.6"
   },
   "keywords": [
